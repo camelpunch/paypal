@@ -1,4 +1,6 @@
 require 'net/http'
+require 'money'
+require 'active_support/core_ext'
 
 module Paypal
   # Parser and handler for incoming Instant payment notifications from paypal. 
