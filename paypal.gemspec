@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name = 'camelpunch-paypal'
+  s.name = 'paypal'
   s.version = '2.1.3'
   s.description = s.summary = "Paypal IPN integration library for rails and other web applications"
   s.has_rdoc = true
