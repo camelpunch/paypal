@@ -21,6 +21,8 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #++
 
+require 'rubygems'
+require 'bundler/setup'
 require 'cgi'
 require 'net/http'
 require 'net/https'
