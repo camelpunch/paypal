@@ -13,7 +13,9 @@ Gem::Specification.new do |s|
   s.homepage = "http://dist.leetsoft.com/api/paypal"
 
   s.add_dependency('money')
-  s.add_dependency('activesupport', '>= 3.0.3')
+  s.add_dependency('activesupport', '~> 2.3')
+  s.add_dependency('actionpack', '~> 2.3')
+  s.add_dependency('money')
 
   s.add_development_dependency('rake')
   s.add_development_dependency('actionpack')

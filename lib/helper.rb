@@ -23,7 +23,7 @@ module Paypal
 
     def paypal_form_tag(url = Paypal::Notification.ipn_url, options = {}, &block)
       if block
-        concat(form_tag(url, options)+capture(&block)+"</form>", block.binding)
+        concat(form_tag(url, options)+capture(&block)+"</form>".html_safe, block.binding)
       else
         form_tag(url, options)
       end

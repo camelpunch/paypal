@@ -1,9 +1,11 @@
 $:.unshift(File.dirname(__FILE__) + '/../lib')
 
+require 'rubygems'
+require 'bundler/setup'
+
 require 'test/unit'
 require 'paypal'
 
-require 'rubygems'
 require 'action_pack' rescue LoadError raise(StandardErrror.new("This test needs ActionPack installed as gem to run"))
 require 'action_controller'
 require 'action_view'
